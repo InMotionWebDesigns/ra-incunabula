@@ -1,0 +1,213 @@
+/*------------------------------------------------------------------------
+# Palettes
+------------------------------------------------------------------------*/
+.palette-primary {
+	background: $palette-primary-neutral-color;
+	color: $text-contrast-palette-primary-neutral-color;
+
+	/*-----------------------------------------------
+	## Headings
+	-----------------------------------------------*/
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	caption {
+		color: $palette-primary_2;
+	}
+	.site-title a,
+    .site-title a:hover {
+		color: $palette-primary-neutral-color;
+	}
+
+	/*-----------------------------------------------
+	## Links
+	-----------------------------------------------*/
+	a,
+	.link-primary {
+		color: $palette-primary_1;
+	}
+    a:hover,
+	.link-primary:hover,
+    .palette-primary .site-navigation #primary-navbar a:hover {
+		color: $palette-primary_1;
+	}
+	.link-secondary {
+		color: $palette-primary_2;
+	}
+    .boldgrid-attribution-link a,
+    .site-footer a {
+        color: $palette-primary_5;
+    }
+
+	/*-----------------------------------------------
+	## Elements
+	-----------------------------------------------*/
+	hr {
+		border-top: 1px solid $palette-primary_2;
+	}
+	blockquote,
+	.mod-blockquote {
+		border-left: 5px solid $palette-primary_4;
+	}
+    .btn-primary,
+    .hosting-button.btn-primary a,
+    div.wpforms-container-full .wpforms-form button[type=submit],
+    #domains .button-success, #domains .button-red, #domains .button-warning, #domains .button-blue {
+        background: $palette-primary_1;
+        color: $palette-primary-neutral-color;
+    }
+    .btn-primary:hover,
+    .hosting-button.btn-primary a:hover,
+    div.wpforms-container-full .wpforms-form button[type=submit]:hover {
+        color: $palette-primary-neutral-color;
+    }
+    .header,
+    .icon-row {
+        background: $palette-primary_5;
+    }
+    .pure-form input[type=text] {
+        border: 1px solid $palette-primary_5;
+    }
+    .hosting li::before {
+        color: $palette-primary_1;
+    }
+
+	/*-----------------------------------------------
+	## Nav
+	-----------------------------------------------*/
+	#primary-navbar a,
+	#secondary-menu a,
+	#tertiary-menu a,
+	#menu-social-items a,
+	#footer-center-menu a {
+		color: $palette-primary-neutral-color;
+	}
+	#primary-navbar,
+	#secondary-menu,
+	#tertiary-menu,
+	#menu-social-items,
+	#footer-center-menu {
+		.current-menu-item a,
+		a:hover,
+		a:focus {
+			color: $palette-primary_1;
+		}
+	}
+	#primary-navbar .current-menu-item a {
+		background: none;
+	}
+	#primary-navbar .current-menu-parent > a {
+		background: none;
+		color: $palette-primary_4;
+	}
+	.dropdown-menu,
+	.navbar-default .navbar-nav > .open > a,
+	.navbar-default .navbar-nav > .open > a:hover,
+	.navbar-default .navbar-nav > .open > a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		background: $palette-primary-neutral-color;
+		color: $text-contrast-palette-primary_5;
+	}
+	.navbar-default .navbar-toggle {
+		background: $palette-primary-neutral-color;
+		border-color: $palette-primary-neutral-color;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: $text-contrast-palette-primary-neutral-color;
+	}
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
+		background: $palette-primary-neutral-color;
+	}
+	.navbar-default .navbar-toggle:hover .icon-bar,
+	.navbar-default .navbar-toggle:focus .icon-bar {
+		background-color: $text-contrast-palette-primary_3;
+	}
+	.has-submenu .sub-arrow:hover,
+	.has-submenu .sub-arrow:focus {
+		color: $text-contrast-palette-primary_3;
+	}
+    
+    /*-----------------------------------------------
+	## Content
+	-----------------------------------------------*/
+    .hosting-section,
+    .site-footer {
+        background: $palette-primary-neutral-color;
+    }
+    .contact {
+        background: $palette-primary_3;
+    }
+    .icon-section h3,
+    .icon-section p {
+        color: $palette-primary-neutral-color;
+    }
+    
+    /*-----------------------------------------------
+	## Form
+	-----------------------------------------------*/
+    .form-container div.wpforms-container-full .wpforms-form input[type=date],
+    .form-container div.wpforms-container-full .wpforms-form input[type=datetime],
+    .form-container div.wpforms-container-full .wpforms-form input[type=datetime-local], 
+    .form-container div.wpforms-container-full .wpforms-form input[type=email],
+    .form-container div.wpforms-container-full .wpforms-form input[type=month],
+    .form-container div.wpforms-container-full .wpforms-form input[type=number],
+    .form-container div.wpforms-container-full .wpforms-form input[type=password],
+    .form-container div.wpforms-container-full .wpforms-form input[type=range],
+    .form-container div.wpforms-container-full .wpforms-form input[type=search],
+    .form-container div.wpforms-container-full .wpforms-form input[type=tel],
+    .form-container div.wpforms-container-full .wpforms-form input[type=text],
+    .form-container div.wpforms-container-full .wpforms-form input[type=time],
+    .form-container div.wpforms-container-full .wpforms-form input[type=url],
+    .form-container div.wpforms-container-full .wpforms-form input[type=week],
+    .form-container div.wpforms-container-full .wpforms-form select,
+    .form-container div.wpforms-container-full .wpforms-form textarea {
+        border: 3px solid $palette-primary_4;
+    }
+
+	/*-----------------------------------------------
+	## Comments
+	-----------------------------------------------*/
+	.panel,
+	.panel-body,
+	.panel-footer,
+	.panel-default > .panel-heading {
+		background-color: $palette-primary-neutral-color;
+		color: $text-contrast-palette-primary-neutral-color;
+	}
+	.panel-default > .panel-heading .media-heading {
+		color: $palette-primary_1;
+	}
+
+	/*-----------------------------------------------
+	## Posts
+	-----------------------------------------------*/
+	&.archive .site-content,
+	&.archive .site-header,
+	&.archive .site-footer,
+	&.single .site-content,
+	&.single .site-header,
+	&.single .site-footer,
+	&.blog .site-content,
+	&.blog .site-header,
+	&.blog .site-footer {
+		background: $palette-primary-neutral-color;
+		color: $text-contrast-palette-primary-neutral-color;
+	}
+
+	/*-----------------------------------------------
+	## Footer
+	-----------------------------------------------*/
+	&.disabled-footer .site-footer {
+		background: $palette-primary-neutral-color;
+		color: $text-contrast-palette-primary-neutral-color;
+	}
+}
