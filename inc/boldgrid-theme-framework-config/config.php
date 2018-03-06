@@ -3,7 +3,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	/**
 	 * General Configs
 	 */
-	$boldgrid_framework_configs['theme_name'] = 'ra-incunabula';
+	$boldgrid_framework_configs['theme_name'] = 'ra-professional';
 	$boldgrid_framework_configs['boldgrid-parent-theme'] = true;
 	$boldgrid_framework_configs['parent-theme-name'] = 'prime';
 
