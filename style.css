@@ -632,6 +632,17 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 	float: right;
 	margin-right: 12px;
 }
+.reseller-domainsearch {
+    margin-bottom: 20px;
+}
+.result {
+    background: rgba(255,255,255,0.5);
+    max-width: 560px;
+}
+.result .available:first-child,
+.result .not-available:first-child{
+    margin-top: 15px;
+}
 
 /* Second Section/Icons */
 .boldgrid-section.about {
