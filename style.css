@@ -720,7 +720,8 @@ input[type="submit"]:hover {
     position: relative;
 }
 .hosting h3:not( .alt-font ):not( .site-description ), 
-.hosting .h3 {
+.hosting .h3,
+.hosting h2 {
     margin-top: 5px;
 }
 .entry-content > .bgtfw > .container-fluid:last-child {
