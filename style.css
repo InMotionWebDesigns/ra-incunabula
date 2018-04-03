@@ -616,6 +616,8 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 }
 .domains h1:not( .site-title ):not( .alt-font ),
 .domains .h1 {
+    background: rgba(255,255,255,0.6);
+    padding: 20px;
     font-size: 30px;
 }
 .domains {
@@ -754,6 +756,11 @@ input[type="submit"]:hover {
     }
     .domains .pure-form input[type=text] {
         max-width: 350px !important;
+    }
+    .domains h1:not( .site-title ):not( .alt-font ),
+    .domains .h1 {
+        background: none;
+        padding: 0;
     }
     /* Icon Row */
 	.icon-flex {
